@@ -28,6 +28,7 @@ gem 'sqlite3'
 # and rake tasks are available in development mode:
 group :development do
   gem 'rspec-rails', '2.5.0'
+  gem 'spork', '~> 0.9.0.rc'
 end
 
 group :test do
