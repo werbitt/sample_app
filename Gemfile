@@ -29,6 +29,7 @@ gem 'sqlite3'
 group :development do
   gem 'rspec-rails', '2.5.0'
   gem 'spork', '~> 0.9.0.rc'
+	gem 'annotate-models'
 end
 
 group :test do
