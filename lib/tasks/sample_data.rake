@@ -1,4 +1,4 @@
-require 'faker'
+#require 'faker'
 
 namespace :db do
   require 'spec_helper'
