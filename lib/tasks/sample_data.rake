@@ -1,7 +1,6 @@
 #require 'faker'
 
 namespace :db do
-  require 'spec_helper'
 
   desc "Fill in the database with sample data"
   task :populate => :environment do
